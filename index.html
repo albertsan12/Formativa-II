@@ -5,149 +5,254 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="recursos/css/normalize.css">
+    <link rel="stylesheet" href="recursos/css/estilos.css">
     <title>Formativa I</title>
 </head>
 
 <body>
     <!--Inicio Header-->
+    <header class="header">
+        <div class="contenedor header-contenido">
+            <div class="header-top">
+                <div class="imagen-logo">
+                    <img src="recursos/img/logo.png" alt="Logo MarketDigital">
+                </div>
 
-
-
-
-    <img src="" alt="">
-
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Catalogo</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Contacto</a>
-    </nav>
-
-    <h1>MARKETDIGITAL</h1>
-
+                <div class="navbar">
+                    <nav>
+                        <a href="#">Inicio</a>
+                        <a href="#">Catalogo</a>
+                        <a href="#">Nosotros</a>
+                        <a href="#">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="header-inferior">
+                <h1>MARKETDIGITAL</h1>
+            </div>
+        </div>
+    </header>
 
     <!--Fin Header-->
 
     <!--Inicio Main-->
+    <main class="main-section">
+      <div class="contenedor main-contenedor">
 
-    <legend>Palabras clave</legend>
-    <input type="text">
+        <aside class="sidebar">
+          <div class="grupo-filtro">
+            <legend>Palabra clave</legend>
+            <input type="text">
+          </div>
 
-    <legend>General</legend>
-    <select>
-        <option disabled selected>Marca</option>
-        <option></option>
-        <option></option>
-    </select>
+          <div class="grupo-filtro">
+            <legend>General</legend>
+            <select>
+              <option disabled selected>Marca</option>
+              <option>Lenovo</option>
+              <option>ASUS</option>
+            </select>
+            <select>
+              <option disabled selected>Linea</option>
+              <option>IdeaPad</option>
+              <option>Legion</option>
+            </select>
+          </div>
 
-    <select>
-        <option disabled selected>Linea</option>
-        <option></option>
-        <option></option>
-    </select>
+          <div class="grupo-filtro">
+            <legend>Procesador</legend>
+            <select>
+              <option disabled selected>Marca</option>
+              <option>Intel</option>
+              <option>AMD</option>
+            </select>
+            <select>
+              <option disabled selected>Linea</option>
+              <option>Core i5</option>
+              <option>Core i7</option>
+            </select>
+            <select>
+              <option disabled selected>Nucleos</option>
+              <option>4 núcleos</option>
+              <option>8 núcleos</option>
+            </select>
+            <select>
+              <option disabled selected>Modelo</option>
+              <option>i5-9300H</option>
+            </select>
+          </div>
+        </aside>
 
-    <legend>Procesador</legend>
+        <section class="Catalogo-principal">
+          <h2 class="titulo-seccion">Notebooks</h2>
 
-    <select>
-        <option disabled selected>Marca</option>
-        <option></option>
-        <option></option>
-    </select>
+          <div class="grilla-productos">
+            <!--Producto 1-->
+            <article class="tarjeta-productos">
+              <a class="enlace-imagen" href="#">
+                <h3>Lenovo IdeaPad L340-15IRH Gaming [81LK00E8CL]</h3>
+              </a>
+              <a class="enlace-imagen" href="#">
+                <img src="recursos/img/notebook Lenovo.png" alt="Lenovo IdeaPad">
+              </a>
+              <div class="detalles-producto">
+                <span>Procesador</span>
+                <p>Intel Core i5-9300H (4 núcleos / 8 hilos / 2400 MHz - 4100 MHz)</p>
+                <span>RAM</span>
+                <p>8 GB DDR4 (2400 MHz)</p>
+                <span>Pantalla</span>
+                <p>LED 15.6" (1920x1080) / 60Hz</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Tarjetas de video</span>
+                <p>Intel UHD Graphics 630 (Integrada)</p>
+                <p>NVDIA GeForce GTX 1050 (3 GB)</p>
+              </div>
+              <p class="precio">$555.000</p>
+            </article>
 
-    <select>
-        <option disabled selected>Linea</option>
-        <option></option>
-        <option></option>
-    </select>
+            <!--Producto 2-->
+            <article class="tarjeta-productos">
+              <a class="enlace-imagen" href="#">
+                <h3>Lenovo IdeaPad L340-15IRH Gaming [81LK00E8CL]</h3>
+              </a>
+              <a class="enlace-imagen" href="#">
+                <img src="recursos/img/notebook Lenovo.png" alt="Lenovo IdeaPad">
+              </a>
+              <div class="detalles-producto">
+                <span>Procesador</span>
+                <p>Intel Core i5-9300H (4 núcleos / 8 hilos / 2400 MHz - 4100 MHz)</p>
+                <span>RAM</span>
+                <p>8 GB DDR4 (2400 MHz)</p>
+                <span>Pantalla</span>
+                <p>LED 15.6" (1920x1080) / 60Hz</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Tarjetas de video</span>
+                <p>Intel UHD Graphics 630 (Integrada)</p>
+                <p>NVDIA GeForce GTX 1050 (3 GB)</p>
+              </div>
+              <p class="precio">$555.000</p>
+            </article>
 
-    <select>
-        <option disabled selected>Nucleos</option>
-        <option></option>
-        <option></option>
-    </select>
+            <!--Producto 3-->
+            <article class="tarjeta-productos">
+              <a class="enlace-imagen" href="#">
+                <h3>Lenovo IdeaPad L340-15IRH Gaming [81LK00E8CL]</h3>
+              </a>
+              <a class="enlace-imagen" href="#">
+                <img src="recursos/img/notebook Lenovo.png" alt="Lenovo IdeaPad">
+              </a>
+              <div class="detalles-producto">
+                <span>Procesador</span>
+                <p>Intel Core i5-9300H (4 núcleos / 8 hilos / 2400 MHz - 4100 MHz)</p>
+                <span>RAM</span>
+                <p>8 GB DDR4 (2400 MHz)</p>
+                <span>Pantalla</span>
+                <p>LED 15.6" (1920x1080) / 60Hz</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Tarjetas de video</span>
+                <p>Intel UHD Graphics 630 (Integrada)</p>
+                <p>NVDIA GeForce GTX 1050 (3 GB)</p>
+              </div>
+              <p class="precio">$555.000</p>
+            </article>
 
-    <select>
-        <option disabled selected>Modelo</option>
-        <option></option>
-        <option></option>
-    </select>
+            <!--Producto 4-->
+            <article class="tarjeta-productos">
+              <a class="enlace-imagen" href="#">
+                <h3>Lenovo IdeaPad L340-15IRH Gaming [81LK00E8CL]</h3>
+              </a>
+              <a class="enlace-imagen" href="#">
+                <img src="recursos/img/notebook Lenovo.png" alt="Lenovo IdeaPad">
+              </a>
+              <div class="detalles-producto">
+                <span>Procesador</span>
+                <p>Intel Core i5-9300H (4 núcleos / 8 hilos / 2400 MHz - 4100 MHz)</p>
+                <span>RAM</span>
+                <p>8 GB DDR4 (2400 MHz)</p>
+                <span>Pantalla</span>
+                <p>LED 15.6" (1920x1080) / 60Hz</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Tarjetas de video</span>
+                <p>Intel UHD Graphics 630 (Integrada)</p>
+                <p>NVDIA GeForce GTX 1050 (3 GB)</p>
+              </div>
+              <p class="precio">$555.000</p>
+            </article>
 
-    <legend>RAM</legend>
+            <!--Producto 5-->
+            <article class="tarjeta-productos">
+              <a class="enlace-imagen" href="#">
+                <h3>Lenovo IdeaPad L340-15IRH Gaming [81LK00E8CL]</h3>
+              </a>
+              <a class="enlace-imagen" href="#">
+                <img src="recursos/img/notebook Lenovo.png" alt="Lenovo IdeaPad">
+              </a>
+              <div class="detalles-producto">
+                <span>Procesador</span>
+                <p>Intel Core i5-9300H (4 núcleos / 8 hilos / 2400 MHz - 4100 MHz)</p>
+                <span>RAM</span>
+                <p>8 GB DDR4 (2400 MHz)</p>
+                <span>Pantalla</span>
+                <p>LED 15.6" (1920x1080) / 60Hz</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Almacenamiento</span>
+                <p>HDD 1TB (5400rpm)</p>
+                <span>Tarjetas de video</span>
+                <p>Intel UHD Graphics 630 (Integrada)</p>
+                <p>NVDIA GeForce GTX 1050 (3 GB)</p>
+              </div>
+              <p class="precio">$555.000</p>
+            </article>
+          </div>
+        </section>
 
-    <select>
-        <option disabled selected>Cantidad</option>
-        <option></option>
-        <option></option>
-    </select>
-
-    <select>
-        <option disabled selected>Tipo</option>
-        <option></option>
-        <option></option>
-    </select>
-
-
-    <h2>Notebooks</h2>
-
-
-    <a href="#">
-        <h3>Lenovo IdeaPad L340-15IRH Gaming [81LK00E8CL]</h3>
-    </a>
-    <a href="#">
-        <img src="" alt="">
-    </a>
-    <span>
-        Procesador
-    </span>
-    <p>Intel Core i5-9300H (4 núcleos / 8 hilos / 2400 MHz - 4100 MHz)</p>
-    <span>RAM</span>
-    <p>8 GB DDR4 (2400 MHz)</p>
-    <span>
-        Pantalla
-    </span>
-    <p>LED 15.6" (1920x1080) / 60 Hz</p>
-    <span>
-        Almacenamiento
-    </span>
-    <p>HDD 1TB (5400rpm)</p>
-    <span>
-        Tarjetas de video
-    </span>
-    <p>Intel UHD Graphics 630 (Integrada)</p>
-    <p>NVIDIA GeForce GTX 1050 (3 GB)</p>
-    <p>$555.000</p>
-
+      </div>
+    </main>
     <!--Fin Main-->
 
     <!--Inicio footer-->
+    <footer class="footer">
+      <div class="contenedor footer-contenido">
 
-    <span>Acerca de</span>
+        <div class="columna-footer">
+          <span class="titulo-footer">Acerca de</span>
+          <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur deserunt, incidunt,
+              dolor eos tenetur facilis ipsam rem cumque accusamus, officia aliquam vitae alias in fuga omnis
+          </p>
+          <a class="enlace-footer" href="#">Terminos y condiciones</a>
+        </div>
 
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur deserunt, incidunt,
-        dolor eos tenetur facilis ipsam rem cumque accusamus, officia aliquam vitae alias in fuga omnis
-    </p>
+        <div class="columna-footer">
+          <span class="titulo-footer">Medios</span>
+          <p> 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit blanditiis, illum autem minus
+            molestiae non labore sint. Iusto, repellat? Et odio voluptatem ex aut consequuntur dolorum impedit
+            possimus corporis autem!</p>
+        </div>
 
-    <a href="#">Términos y condiciones</a>
-
-    <span>Medios</span>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit blanditiis, illum autem minus
-        molestiae non labore sint. Iusto, repellat? Et odio voluptatem ex aut consequuntur dolorum impedit
-        possimus corporis autem!
-    </p>
-
-    <span>Contacto</span>
-    <p>
-        MarketDigital
-    </p>
-    <p>
-        Arica - Chile
-    </p>
-    <a href="#">
-        Contáctanos vía web
-    </a>
-
+        <div class="columna-footer">
+          <span class="titulo-footer">Contacto</span>
+          <p>MarketDigital</p>
+          <p>Arica - Chile</p>
+          <a class="enlace-footer" href="#"> Contáctanos vía web</a>
+        </div>
+      </div>
+    </footer>
     <!--Fin footer-->
 </body>
 
